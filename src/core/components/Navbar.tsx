@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Container } from './Container';
 import { Button } from './Button';
 import Link from 'next/link';
-import Funion_logo from '@/core/assets/Funion_logo.png'
+import Funion_logo from '@/core/assets/LOGO_SVG.svg'
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
