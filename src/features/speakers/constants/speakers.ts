@@ -428,7 +428,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     id: "aimee-catherine-moukouri",
     name: "Aimée Catherine Moukouri",
     role: "Modératrice",
-    description: "--.",
+    description: "",
     imageUrl: AimeeCatherineMoukouri.src,
     bio: "--.",
     sessions: [
