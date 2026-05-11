@@ -23,6 +23,9 @@ import PriscaHeuya from "@/core/assets/prisca-heuya.png";
 import JocelyneNgassam from "@/core/assets/jocelyne-ngassam.jpg";
 import RoseDika from "@/core/assets/rose_dika.png";
 import WilfriedDjopa from "@core/assets/wilfried_djopa.jpg";
+import CarineDIkambi from "@/core/assets/Carine-DIkambi.jpg";
+import LydieNgoNogol from "@/core/assets/Lydie-Ngo-Nogol.jpg";
+import AimeeCatherineMoukouri from "@/core/assets/Aimée-Catherine-Moukouri.jpg";
 
 export const JOUR_1_SESSIONS: Session[] = [
   {
@@ -187,10 +190,13 @@ export const JOUR_2_SESSIONS: Session[] = [
     endTime: "15:00",
     cible: "Next Gen",
     speakers: [
-      { id: "sp_j2_4_2", name: "Lydie Ngo Nogol", role: "Intervenante", imageUrl: intervenant3.src },
-      { id: "sp_j2_4_3", name: "Carine Dîkambi", role: "Intervenante", imageUrl: intervenant4.src },
+      { id: "sp_j2_4_2", name: "Lydie Ngo Nogol", role: "Intervenante", imageUrl: LydieNgoNogol.src },
+      { id: "sp_j2_4_3", name: "Carine Dikambi", role: "Intervenante", imageUrl: CarineDIkambi.src },
       { id: "sp_j2_4_4", name: "Belinda NGONO", role: "Regional Business Development West & Central Francophone Africa", imageUrl: intervenant5.src },
-      { id: "sp_j2_4_5", name: "Gozem representative", role: "Intervenante", imageUrl: intervenant6.src }
+      { id: "sp_j2_4_5", name: "Gozem representative", role: "Intervenante", imageUrl: intervenant6.src },
+      { id: "sp_j2_4_6", name: "Carine Dikambi", role: "----", imageUrl: CarineDIkambi.src },
+      { id: "sp_j2_4_7", name: "Lydie Ngo Nogol", role: "----", imageUrl: LydieNgoNogol.src }
+
     ]
   },
   {
@@ -217,14 +223,17 @@ export const JOUR_2_SESSIONS: Session[] = [
     endTime: "16:00",
     cible: "All",
     speakers: [
-      { id: "sp_j2_6_1", name: "Aimee Catherine Moukouri", role: "Modératrice | Journaliste", imageUrl: intervenant4.src },
+      { id: "sp_j2_6_1", name: "Aimée Catherine Moukouri", role: "Modératrice", imageUrl: AimeeCatherineMoukouri.src },
       { id: "sp_j2_6_2", name: "Syndy Emade", role: "Award-winning Actress & Producer", imageUrl: intervenant5.src },
       { id: "sp_j2_6_3", name: "Sandrine Nanga", role: "Artiste", imageUrl: intervenant6.src },
       { id: "sp_j2_6_4", name: "Kameni", role: "Artiste", imageUrl: intervenant7.src },
       { id: "sp_j2_6_5", name: "Chantal Edie", role: "Documentarian & Curator", imageUrl: intervenant8.src },
       { id: "sp_j2_6_6", name: "Rodolpha Bwanga", role: "Deputy Managing Director | Commercial Strategy", imageUrl: intervenant1.src },
       { id: "sp_j2_6_7", name: "Comfort", role: "Kissy wears", imageUrl: intervenant2.src },
-      { id: "sp_j2_6_8", name: "MOFEAC representative", role: "Intervenante", imageUrl: intervenant3.src }
+      { id: "sp_j2_6_8", name: "MOFEAC representative", role: "Intervenante", imageUrl: intervenant3.src },
+      { id: "sp_j2_6_9", name: "Aimée Catherine Moukouri ", role: "Modératrice ", imageUrl: AimeeCatherineMoukouri.src },
+
+
     ]
   },
   {

@@ -69,7 +69,7 @@ export const Navbar = () => {
 
             <Link href="/speakers" className={`${isScrolled ? "text-[#0d1f36]" : "text-white/90"} hover:text-gray-600 transition-colors uppercase tracking-wide`}>Intervenant(e)s</Link>
             <Link href="#contact" className={`${isScrolled ? "text-[#0d1f36]" : "text-white/90"} hover:text-gray-600 transition-colors uppercase tracking-wide`}>Contact</Link>
-            <Link href="/communique-presse" className={`${isScrolled ? "text-[#0d1f36]" : "text-white/90"} hover:text-gray-600 transition-colors uppercase tracking-wide`}>Press</Link>
+            <Link href="/communique-presse" className={`${isScrolled ? "text-[#0d1f36]" : "text-white/90"} hover:text-gray-600 transition-colors uppercase tracking-wide`}>Presse</Link>
           </div>
 
           <div className="flex items-center gap-4">
@@ -134,7 +134,7 @@ export const Navbar = () => {
                 },
                 { href: "/speakers", label: "Intervenant(e)s" },
                 { href: "#contact", label: "Contact" },
-                { href: "/communique-presse", label: "Press" }
+                { href: "/communique-presse", label: "Presse" }
               ].map((link) => (
                 <div key={link.href} className="flex flex-col border-b border-white/5">
                   <Link

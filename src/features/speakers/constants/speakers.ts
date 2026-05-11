@@ -24,6 +24,9 @@ import DianeAudreyNgako from "@/core/assets/Diane-Audrey-Ngako.jpeg";
 import PaolaYoko from "@/core/assets/Paola-Yoko.jpeg";
 import RodolphaBwanga from "@/core/assets/Rodolpha-Bwanga.jpeg";
 import ChantalEdie from "@/core/assets/Chantal-Edie.jpeg";
+import CarineDIkambi from "@/core/assets/Carine-DIkambi.jpg";
+import LydieNgoNogol from "@/core/assets/Lydie-Ngo-Nogol.jpg";
+import AimeeCatherineMoukouri from "@/core/assets/Aimée-Catherine-Moukouri.jpg";
 
 export const SPEAKER_PROFILES: SpeakerProfile[] = [
   {
@@ -389,7 +392,53 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
         title: "Table Ronde : Leadership féminin dans l'industrie créative",
         href: "/programme/jour2#j2_s6"
       }
-    ]  }
+    ]  
+  },
+  {
+    id: "carine-dikambi",
+    name: "Carine Dikambi",
+    role: "----",
+    description: "---.",
+    imageUrl: CarineDIkambi.src,
+    bio: "---.",
+    sessions: [
+      {
+        id: "j2_s6",
+        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        href: "/programme/jour2#j2_s6"
+      }
+    ]  
+  },
+  {
+    id: "lydie-ngo-nogol",
+    name: "Lydie Ngo Nogol",
+    role: "----",
+    description: "--.",
+    imageUrl: LydieNgoNogol.src,
+    bio: "--.",
+    sessions: [
+      {
+        id: "j2_s6",
+        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        href: "/programme/jour2#j2_s6"
+      }
+    ]  
+  },
+  {
+    id: "aimee-catherine-moukouri",
+    name: "Aimée Catherine Moukouri",
+    role: "Modératrice",
+    description: "--.",
+    imageUrl: AimeeCatherineMoukouri.src,
+    bio: "--.",
+    sessions: [
+      {
+        id: "j2_s6",
+        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        href: "/programme/jour2#j2_s6"
+      }
+    ]  
+  }
 ];
 
 export const SPEAKER_PROFILE_MAP = SPEAKER_PROFILES.reduce<Record<string, SpeakerProfile>>((map, speaker) => {
