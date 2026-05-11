@@ -194,8 +194,8 @@ export const JOUR_2_SESSIONS: Session[] = [
       { id: "sp_j2_4_3", name: "Carine Dikambi", role: "Intervenante", imageUrl: CarineDIkambi.src },
       { id: "sp_j2_4_4", name: "Belinda NGONO", role: "Regional Business Development West & Central Francophone Africa", imageUrl: intervenant5.src },
       { id: "sp_j2_4_5", name: "Gozem representative", role: "Intervenante", imageUrl: intervenant6.src },
-      { id: "sp_j2_4_6", name: "Carine Dikambi", role: "----", imageUrl: CarineDIkambi.src },
-      { id: "sp_j2_4_7", name: "Lydie Ngo Nogol", role: "----", imageUrl: LydieNgoNogol.src }
+      { id: "sp_j2_4_6", name: "Carine Dikambi", role: "Intervenante", imageUrl: CarineDIkambi.src },
+      { id: "sp_j2_4_7", name: "Lydie Ngo Nogol", role: "Intervenante", imageUrl: LydieNgoNogol.src }
 
     ]
   },
