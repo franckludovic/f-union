@@ -398,7 +398,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     id: "carine-dikambi",
     name: "Carine Dikambi",
     role: "Intervenante",
-    description: "Travaille pour le CIT.",
+    description: "Managing Director, Crypto & Web3 Entrepreneur",
     imageUrl: CarineDIkambi.src,
     bio: "---.",
     sessions: [
@@ -413,9 +413,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     id: "lydie-ngo-nogol",
     name: "Lydie Ngo Nogol",
     role: "Intervenante",
-    description: "Travaille pour le CIT.",
+    description: "Cybersecurity Expert, Director Information System & Digital Transformation.",
     imageUrl: LydieNgoNogol.src,
-    bio: "--.",
+    bio: "---",
     sessions: [
       {
         id: "j2_s6",

@@ -309,7 +309,7 @@ export const JOUR_3_SESSIONS: Session[] = [
     hall: "conference Hall 3",
     startTime: "08:00",
     endTime: "11:30",
-    cible: "Talent-Next Gen",
+    cible: " Pass Next Gen",
     speakers: []
   },
   {
@@ -329,7 +329,7 @@ export const JOUR_3_SESSIONS: Session[] = [
     hall: "Conference Hall 2",
     startTime: "11:30",
     endTime: "12:30",
-    cible: "Talent-Startup",
+    cible: " Pass Talent",
     speakers: [
       { id: "sp_j3_4_1", name: "Anabelle KOUNG", role: "Modératrice", imageUrl: AnabelleKOUNG.src },
       { id: "sp_j3_4_2", name: "Aurélie Guifo", role: "Directrice des Affaires Juridiques & Réglementaires", imageUrl: AurelieGuifo.src },
@@ -343,7 +343,7 @@ export const JOUR_3_SESSIONS: Session[] = [
     hall: "conference Hall 3",
     startTime: "14:00",
     endTime: "15:30",
-    cible: "Talent-Next Gen",
+    cible: " Pass Next Gen",
     speakers: [
       { id: "sp_j3_5_1", name: "Jessica Mambo", role: "Modératrice", imageUrl: intervenant4.src },
       { id: "sp_j3_5_2", name: "Erika Wilson", role: "CSR & Impact Communications Leader", imageUrl: ErikaWilson.src },
@@ -375,17 +375,6 @@ export const JOUR_3_SESSIONS: Session[] = [
       { id: "sp_j3_7_4", name: "Yelena N", role: "Digital Marketing & Operations Manager", imageUrl: intervenant4.src },
       { id: "sp_j3_7_5", name: "Patrice-Adèle Ekoka", role: "Directeur Régional", imageUrl: intervenant5.src },
       { id: "sp_j3_7_6", name: "Claudine Simo Mam", role: "Expert Comptable Diplomé", imageUrl: intervenant6.src }
-    ]
-  },
-  {
-    id: "j3_s8",
-    title: "Le Grand Procès : Inclusion & ESG : ambitions, contraintes et réalités africaines",
-    hall: "Conference Hall 1",
-    startTime: "15:30",
-    endTime: "16:30",
-    cible: "All",
-    speakers: [
-      { id: "sp_j3_8_1", name: "Amandine Bonny", role: "Modératrice / Journaliste", imageUrl: intervenant7.src }
     ]
   },
   {

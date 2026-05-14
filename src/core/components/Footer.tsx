@@ -34,7 +34,7 @@ export const Footer = () => {
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-2 mb-2">
               <h4 className="text-[#a855f7] font-semibold text-sm tracking-wider uppercase">
-                WHERE WE WORK
+                Nos coordonnées
               </h4>
               <div className="w-8 h-0.5 bg-[#a855f7]/60 rounded-full"></div>
             </div>
