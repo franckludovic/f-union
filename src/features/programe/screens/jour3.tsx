@@ -16,7 +16,7 @@ export const Jour3Screen = () => {
       <HeroSectionJour3 />
       <ProgrammeView
         sessions={JOUR_3_SESSIONS}
-        googleFormUrl="https://docs.google.com/forms/d/e/1FAIpQLSeUjSKby16bZBCB4K7d0kQTFt2Dh19lgCTxAl2KSqIb65PRJw/viewform?embedded=true"
+        googleFormUrl="https://docs.google.com/forms/d/e/1FAIpQLSdyaZmTc2lu4TO4dhqxQtycLUT4JaMHVvDWzmwfyKWWMst0AA/viewform?embedded=true"
         speakerProfiles={SPEAKER_PROFILES}
         onSpeakerClick={setActiveSpeaker}
         pdfUrl="/pdfs/programme-jour3.pdf"

@@ -153,7 +153,7 @@ export const MissionSection = () => {
       {/* Bottom CTA */}
       <div className="text-center">
         <button
-          onClick={() => window.open("https://f-union.genuka.shop/en/collections", "_blank")}
+          onClick={() => window.open("https://billeterie.f-union.org/", "_blank")}
           className="px-12 py-5 rounded-full font-bold text-[15px] bg-[#111827] text-white hover:bg-[#1f2937] border-none shadow-lg tracking-wide uppercase"
         >
           Reserver ma place
