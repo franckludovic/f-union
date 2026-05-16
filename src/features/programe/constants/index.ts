@@ -22,10 +22,11 @@ import PechensDOUMBE from "@/core/assets/pechens-doumbe.jpg";
 import PriscaHeuya from "@/core/assets/prisca-heuya.png";
 import JocelyneNgassam from "@/core/assets/jocelyne-ngassam.jpg";
 import RoseDika from "@/core/assets/rose_dika.png";
-import WilfriedDjopa from "@core/assets/wilfried_djopa.jpg";
+import WilfriedDjopa from "@/core/assets/wilfried_djopa.jpg";
 import CarineDIkambi from "@/core/assets/Carine-DIkambi.jpg";
 import LydieNgoNogol from "@/core/assets/Lydie-Ngo-Nogol.jpg";
 import AimeeCatherineMoukouri from "@/core/assets/Aimée-Catherine-Moukouri.jpg";
+import EkokaSidikiPatrice from "@/core/assets/Ekoka-sidiki-patrice.jpg";
 
 export const JOUR_1_SESSIONS: Session[] = [
   {
@@ -372,7 +373,14 @@ export const JOUR_3_SESSIONS: Session[] = [
     startTime: "14:00",
     endTime: "15:00",
     cible: "Tous",
-    speakers: []
+    speakers: [
+      {
+        id: "sp_j3_9_1",
+        name: "Mme Ekoka née Sidiki Patrice Adèle",
+        role: "Ex-Directeur Régional",
+        imageUrl: EkokaSidikiPatrice.src
+      }
+    ]
   },
   {
     id: "j3_s10",

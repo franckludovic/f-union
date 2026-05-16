@@ -27,7 +27,8 @@ import ChantalEdie from "@/core/assets/Chantal-Edie.jpeg";
 import CarineDIkambi from "@/core/assets/Carine-DIkambi.jpg";
 import LydieNgoNogol from "@/core/assets/Lydie-Ngo-Nogol.jpg";
 import AimeeCatherineMoukouri from "@/core/assets/Aimée-Catherine-Moukouri.jpg";
-import HermineDoloresBoum from "@/core/assets/intervenant6.png";
+import HermineDoloresBoum from "@/core/assets/Hermine-Dolorès-BOUM.png";
+import EkokaSidikiPatrice from "@/core/assets/Ekoka-sidiki-patrice.jpg";
 
 export const SPEAKER_PROFILES: SpeakerProfile[] = [
   {
@@ -59,11 +60,11 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
   },
   {
     id: "hermine-dolores-boum",
-    name: "Hermines Dolores Boum",
+    name: "Hermines Dolorès Boum",
     role: "Administratrice indépendante",
     description: "Administratrice indépendante et experte en gouvernance d'entreprise.",
     imageUrl: HermineDoloresBoum.src,
-    bio: "Hermines Dolores Boum est une administratrice indépendante reconnue pour son expertise en gouvernance d'entreprise et son engagement dans le développement économique.",
+    bio: "Hermine-Dolorès BOUM est Administratrice Indépendante Certifiée par l’Institute of Directors (IoD, Royaume-Uni) et le Collège des Administrateurs de Sociétés (Québec). Elle détient également la certification ESG de The Boardroom Africa (TBRA), est Executive Coach accréditée par l’International Coaching Federation (ICF), et depuis septembre 2025, elle est titulaire du Certificat International en Gouvernance des Risques Cyber du DCRO Institute.",
     sessions: [
       { id: "j2_s3", title: "Table Ronde : Leadership féminin", href: "/programme/jour2#j2_s3" }
     ]
@@ -193,8 +194,8 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
   {
     id: "rose-dika",
     name: "Rose Dika",
-    role: "PMO F-Union Africa Summit 2",
-    description: "PMO F-Union Africa Summit 2",
+    role: "PMO F-Union Africa Summit 2026",
+    description: "PMO F-Union Africa Summit 2026",
     imageUrl: RoseDika.src,
     bio: "",
     sessions: [
@@ -202,6 +203,22 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
         id: "j2_s8",
         title: "ATELIER VIP : Leadership Styling",
         href: "/programme/jour2#j2_s8"
+      }
+    ]
+  },
+  {
+    id: "ekoka-sidiki-patrice",
+    name: "Mme Ekoka née Sidiki Patrice Adèle",
+    role: "Ex-Directeur Régional",
+    company: "Chambre de Commerce pour le Littoral",
+    description: "Ancienne Directrice Régionale de la Chambre de Commerce pour le Littoral, intervenante sur l'écosystème transgénérationnel.",
+    imageUrl: EkokaSidikiPatrice.src,
+    bio: "Mme Ekoka née Sidiki Patrice Adèle a été Directrice Régionale de la Chambre de Commerce pour le Littoral. Elle apporte une expertise solide en gouvernance et en accompagnement des écosystèmes entrepreneuriaux transgénérationnels, en particulier pour les femmes leaders émergentes.",
+    sessions: [
+      {
+        id: "j3_s9",
+        title: "Table ronde : L'Écosystème Transgénérationnel — construire la prochaine génération de femmes leaders",
+        href: "/programme/jour3#j3_s9"
       }
     ]
   },

@@ -182,7 +182,7 @@ export const HeroSection = () => {
             <Button
               href="https://billeterie.f-union.org/"
               variant="white"
-              className="w-full sm:w-auto px-6 py-3 text-xs shadow-md"
+              className="w-full sm:w-auto px-6 py-3 text-xs shadow-md whitespace-nowrap"
             >
               Réserver ma place
             </Button>
