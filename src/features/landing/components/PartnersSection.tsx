@@ -1,40 +1,42 @@
 import { Container } from "@/core/components/Container";
 import dotMap from "@/core/assets/Dot Map.png";
-import logo1 from "@/core/assets/dummy-logo-1b.png";
-import logo2 from "@/core/assets/dummy-logo-2b.png";
-import logo3 from "@/core/assets/dummy-logo-3b.png";
-import logo4 from "@/core/assets/dummy-logo-4b.png";
+import adekeLogo from "@/core/assets/ADEKE group.jpeg";
+import genukaLogo from "@/core/assets/genuka.png";
+import kenyaLogo from "@/core/assets/Kenya Airways@72x.png";
+import gozemLogo from "@/core/assets/gozem.jpg";
+import studelyLogo from "@/core/assets/studely.jpg";
+import mandaLogo from "@/core/assets/Manda .jpeg";
+import minjecLogo from "@/core/assets/minjec.jpg";
+import minefopLogo from "@/core/assets/minefop.jpg";
+import minpmeesaLogo from "@/core/assets/Logo MINPMEESA.jpeg";
+import winLogo from "@/core/assets/WIN PNG.png";
+import citLogo from "@/core/assets/CIT logo L.jpg.jpeg";
+import feminineLogo from "@/core/assets/feminine.jpg";
+import essecLogo from "@/core/assets/ESSEC.jpg";
+import cameroonCeoLogo from "@/core/assets/cameroun-ceo.png";
 import { Button } from "@/core/components/Button";
 
 
 const categories = [
   {
-    title: "Partenaires Officiels",
-    logos: [logo1.src, logo2.src, logo3.src, logo4.src, logo1.src, logo2.src, logo3.src, logo4.src],
-  },
-  {
     title: "Partenaires Institutionnels",
-    logos: [logo1.src, logo2.src, logo3.src, logo4.src, logo1.src, logo2.src, logo3.src, logo4.src],
+    logos: [minjecLogo.src, minefopLogo.src, minpmeesaLogo.src],
   },
   {
     title: "Partenaires Corporate",
-    logos: [logo1.src, logo2.src, logo3.src, logo4.src, logo1.src, logo2.src, logo3.src, logo4.src],
-  },
-  {
-    title: "Partenaires Expériences",
-    logos: [logo1.src, logo2.src, logo3.src, logo4.src, logo1.src, logo2.src, logo3.src, logo4.src],
+    logos: [adekeLogo.src, genukaLogo.src, mandaLogo.src, kenyaLogo.src, gozemLogo.src, studelyLogo.src],
   },
   {
     title: "Partenaires Associations",
-    logos: [logo1.src, logo2.src, logo3.src, logo4.src, logo1.src, logo2.src, logo3.src, logo4.src],
+    logos: [winLogo.src, citLogo.src, feminineLogo.src],
   },
   {
-    title: "Partenaires Academique",
-    logos: [logo1.src, logo2.src, logo3.src, logo4.src, logo1.src, logo2.src, logo3.src, logo4.src],
+    title: "Partenaires Académiques",
+    logos: [essecLogo.src],
   },
   {
     title: "Partenaires Media",
-    logos: [logo1.src, logo2.src, logo3.src, logo4.src, logo1.src, logo2.src, logo3.src, logo4.src],
+    logos: [cameroonCeoLogo.src],
   },
 ];
 
@@ -71,8 +73,7 @@ type RowProps = {
 };
 
 const CarouselRow = ({ title, logos, direction }: RowProps) => {
-  // Duplicate the logos so the animation loops seamlessly.
-  // The inner strip is 2× the logo list; the animation translates -50%.
+  const isStatic = logos.length < 3;
   const loopedLogos = [...logos, ...logos];
 
   return (
@@ -88,17 +89,23 @@ const CarouselRow = ({ title, logos, direction }: RowProps) => {
         <div className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
         <div className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-        {/* Animated strip */}
-        <div
-          className={`flex w-max py-2 ${direction === "left"
-            ? "animate-scroll-left"
-            : "animate-scroll-right"
-            }`}
-        >
-          {loopedLogos.map((src, idx) => (
-            <LogoCard key={idx} src={src} />
-          ))}
-        </div>
+        {isStatic ? (
+          <div className="flex justify-center gap-6 py-4 px-4">
+            {logos.map((src, idx) => (
+              <LogoCard key={idx} src={src} />
+            ))}
+          </div>
+        ) : (
+          <div
+            className={`flex w-max py-2 ${direction === "left"
+              ? "animate-scroll-left"
+              : "animate-scroll-right"
+              }`}>
+            {loopedLogos.map((src, idx) => (
+              <LogoCard key={idx} src={src} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

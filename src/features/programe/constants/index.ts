@@ -275,7 +275,7 @@ export const JOUR_2_SESSIONS: Session[] = [
     endTime: "19:00",
     cible: "Pass VIP",
     speakers: [
-      { id: "sp_j2_11_1", name: "Hermines Dolorès Boum", role: "Intervenante", imageUrl: intervenant6.src },
+      { id: "sp_j2_11_1", name: "Hermines-Dolorès Boum", role: "Intervenante", imageUrl: intervenant6.src },
       { id: "sp_j2_11_2", name: "Vanessa Kamé-Domguia", role: "Intervenante", imageUrl: intervenant1.src }
     ]
   }

@@ -84,7 +84,7 @@ export const MissionSection = () => {
               <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 11a4 4 0 100-8 4 4 0 000 8zm-6.5-1a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM17.5 5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-5.5 8c-3.59 0-10 1.8-10 5.4V21h20v-2.6c0-3.6-6.41-5.4-10-5.4z" /></svg>
             </div>
             <div className="flex flex-col">
-              <div className="font-serif font-bold text-[2.5rem] leading-none text-[#333] mb-1 ">600</div>
+              <div className="font-serif font-bold text-[2.5rem] leading-none text-[#333] mb-1 ">400</div>
               <div className="text-[0.65rem] font-medium text-gray-500 tracking-wider uppercase">Participantes</div>
             </div>
           </div>

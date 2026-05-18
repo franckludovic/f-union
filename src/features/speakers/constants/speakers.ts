@@ -22,10 +22,9 @@ import SerangeEbala from "@/core/assets/Serange-Ebala.jpeg";
 import EvaYoumbi from "@/core/assets/Eva-Youmbi.jpeg";
 import DianeAudreyNgako from "@/core/assets/Diane-Audrey-Ngako.jpeg";
 import PaolaYoko from "@/core/assets/Paola-Yoko.jpeg";
-import RodolphaBwanga from "@/core/assets/Rodolpha-Bwanga.jpeg";
 import ChantalEdie from "@/core/assets/Chantal-Edie.jpeg";
 import CarineDIkambi from "@/core/assets/Carine-DIkambi.jpg";
-import LydieNgoNogol from "@/core/assets/Lydie-Ngo-Nogol.jpg";
+import LindaMballa from "@/core/assets/Linda-Mballa.jpg";
 import AimeeCatherineMoukouri from "@/core/assets/Aimée-Catherine-Moukouri.jpg";
 import HermineDoloresBoum from "@/core/assets/Hermine-Dolorès-BOUM.png";
 import EkokaSidikiPatrice from "@/core/assets/Ekoka-sidiki-patrice.jpg";
@@ -60,7 +59,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
   },
   {
     id: "hermine-dolores-boum",
-    name: "Hermines Dolorès Boum",
+    name: "Hermines-Dolorès Boum",
     role: "Administratrice indépendante",
     description: "Administratrice indépendante et experte en gouvernance d'entreprise.",
     imageUrl: HermineDoloresBoum.src,
@@ -101,12 +100,28 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     ]
   },
   {
-    id: "lydie-ngo-nogol",
-    name: "Lydie Ngo Nogol",
-    role: "Intervenante",
-    description: "Cybersecurity Expert, Director Information System & Digital Transformation.",
-    imageUrl: LydieNgoNogol.src,
-    bio: ".",
+    id: "diane-audrey-ngako",
+    name: "Diane Audrey Ngako",
+    role: "Experte Marketing & Entrepreneuriat",
+    description: "Entrepreneur et experte en stratégies commerciales et marketing.",
+    imageUrl: DianeAudreyNgako.src,
+    bio: "",
+    sessions: [
+      {
+        id: "j2_s5",
+        title: "Workshop : Scale Up Room – 5 entrepreneurs, 5 défis stratégiques, face à un panel d'experts",
+        href: "/programme/jour2#j2_s5"
+      }
+    ]
+  },
+  {
+    id: "linda-mballa",
+    name: "Linda Mballa",
+    role: "Ingénieure logiciel et co-fondatrice",
+    company: "Dev_girls",
+    description: "Ingénieure logiciel et co-fondatrice de la communauté Dev_girls.",
+    imageUrl: LindaMballa.src,
+    bio: "Linda Mballa est une ingénieure logiciel passionnée par l'innovation technologique et l'entrepreneuriat en Afrique. Elle est co-fondatrice de Dev_girls, une communauté dédiée à l'émancipation et au développement des femmes dans le secteur technologique.",
     sessions: [
       {
         id: "j2_s6",
@@ -129,21 +144,6 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
         href: "/programme/jour2#j2_s6"
       }
     ]  
-  },
-  {
-    id: "diane-audrey-ngako",
-    name: "Diane Audrey Ngako",
-    role: "Experte Marketing & Entrepreneuriat",
-    description: "Entrepreneur et experte en stratégies commerciales et marketing.",
-    imageUrl: DianeAudreyNgako.src,
-    bio: "",
-    sessions: [
-      {
-        id: "j2_s5",
-        title: "Workshop : Scale Up Room – 5 entrepreneurs, 5 défis stratégiques, face à un panel d'experts",
-        href: "/programme/jour2#j2_s5"
-      }
-    ]
   },
   {
     id: "eva-youmbi",
@@ -426,22 +426,6 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     description: "Leader dans les industries culturelles et créatives en Afrique.",
     imageUrl: PaolaYoko.src,
     bio: "Paola Yoko est une productrice et manageuse engagée dans le développement des industries culturelles et des dynamiques d'insertion professionnelle en Afrique. Fondatrice du label LVL UP CORP, elle accompagne le développement de carrières artistiques et la structuration de projets musicaux. Cofondatrice et Secrétaire Générale de l'ADCC, elle développe une approche transversale connectant industries culturelles, formation professionnelle et opportunités économiques.",
-    sessions: [
-      {
-        id: "j2_s6",
-        title: "Table Ronde : Leadership féminin dans l'industrie créative",
-        href: "/programme/jour2#j2_s6"
-      }
-    ]
-  },
-  {
-    id: "rodolpha-bwanga",
-    name: "Rodolpha Bwanga",
-    role: "Directrice Générale",
-    company: "Trace Cameroun",
-    description: "Leader dans les industries culturelles et créatives, spécialisée dans la promotion de la musique africaine.",
-    imageUrl: RodolphaBwanga.src,
-    bio: "Rodolpha Bwanga est Directrice Générale de Trace Cameroun, filiale du groupe TRACE. Depuis près de dix ans, elle contribue au développement de projets valorisant la musique, les talents et les expressions culturelles africaines. Engagée pour la promotion de l'entrepreneuriat et de la créativité, elle s'intéresse au rôle des industries culturelles comme levier économique pour l'Afrique.",
     sessions: [
       {
         id: "j2_s6",

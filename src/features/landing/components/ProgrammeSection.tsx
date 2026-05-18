@@ -203,7 +203,7 @@ export const ProgrammeSection = () => {
 
             <FlipCard
               frontImage={day3.src}
-              frontTitle="Expérience & Connexions"
+              frontTitle="Expériences & Connexions"
               dayNumber="Jour 3"
               innerSpace="8"
               href="/programme/jour3"
