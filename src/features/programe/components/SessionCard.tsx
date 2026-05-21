@@ -105,11 +105,13 @@ export const SessionCard = ({ session, speakerProfiles = [], onSpeakerClick, sho
         {showSpeakers && (
           <div className="w-full md:w-auto flex flex-col pt-10 md:pt-0">
             <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-x-0 gap-y-10 items-start">
-              {session.speakers.map((speaker) => {
-                const profile = SPEAKER_PROFILE_MAP[speaker.name.toLowerCase()] || speakerProfiles.find((item) => item.name.toLowerCase() === speaker.name.toLowerCase());
-                const clickAction = profile ? () => onSpeakerClick?.(profile) : undefined;
+              {session.speakers
+                .filter((speaker) => speaker.visible !== false)
+                .map((speaker) => {
+                  const profile = SPEAKER_PROFILE_MAP[speaker.name.toLowerCase()] || speakerProfiles.find((item) => item.name.toLowerCase() === speaker.name.toLowerCase());
+                  const clickAction = profile ? () => onSpeakerClick?.(profile) : undefined;
 
-                return (
+                  return (
                   <div
                     key={speaker.id}
                     className={`flex flex-col items-center text-center gap-3 min-w-[72px] ${profile ? 'cursor-pointer group' : 'opacity-70'}`}

@@ -13,11 +13,13 @@ import EditheNkenHOT from "@/core/assets/edithe-nken-hot.jpg";
 import GaelleNgue from "@/core/assets/me-gaelle-ngue.jpg";
 import AurelieGuifo from "@/core/assets/aurelie-guifo.jpg";
 import ManuelaKAMADJOU from "@/core/assets/manuela-kamadjou.jpg";
+import LindaMballa from "@/core/assets/Linda-Mballa.jpg";
 import LindaNganko from "@/core/assets/linda-nganko.jpeg";
 import AnabelleKOUNG from "@/core/assets/anabelle-koung.jpeg";
 import ErikaWilson from "@/core/assets/erika-wilson.jpg";
 import HonoreNkouel from "@/core/assets/honore-nkouel.jpeg";
 import ChristianTchoupe from "@/core/assets/christian-tchoupe.png";
+import VanessaKame from "@/core/assets/Vanessa-Kame.png";
 import PechensDOUMBE from "@/core/assets/pechens-doumbe.jpg";
 import PriscaHeuya from "@/core/assets/prisca-heuya.png";
 import JocelyneNgassam from "@/core/assets/jocelyne-ngassam.jpg";
@@ -40,13 +42,15 @@ export const JOUR_1_SESSIONS: Session[] = [
         id: "sp1",
         name: "Ursule Wonje",
         role: "Feminie",
-        imageUrl: intervenant1.src
+        imageUrl: intervenant1.src,
+        visible: false
       },
       {
         id: "sp2",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant2.src
+        imageUrl: intervenant2.src,
+        visible: false
       }
     ]
   },
@@ -61,25 +65,29 @@ export const JOUR_1_SESSIONS: Session[] = [
         id: "sp3",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant3.src
+        imageUrl: intervenant3.src,
+        visible: false
       },
       {
         id: "sp4",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant4.src
+        imageUrl: intervenant4.src,
+        visible: false
       },
       {
         id: "sp5",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant5.src
+        imageUrl: intervenant5.src,
+        visible: false
       },
       {
         id: "sp6",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant6.src
+        imageUrl: intervenant6.src,
+        visible: false
       }
     ]
   },
@@ -94,19 +102,22 @@ export const JOUR_1_SESSIONS: Session[] = [
         id: "sp7",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant7.src
+        imageUrl: intervenant7.src,
+        visible: false
       },
       {
         id: "sp8",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant8.src
+        imageUrl: intervenant8.src,
+        visible: false
       },
       {
         id: "sp9",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant1.src
+        imageUrl: intervenant1.src,
+        visible: false
       }
     ]
   },
@@ -121,25 +132,29 @@ export const JOUR_1_SESSIONS: Session[] = [
         id: "sp10",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant2.src
+        imageUrl: intervenant2.src,
+        visible: false
       },
       {
         id: "sp11",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant3.src
+        imageUrl: intervenant3.src,
+        visible: false
       },
       {
         id: "sp12",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant4.src
+        imageUrl: intervenant4.src,
+        visible: false
       },
       {
         id: "sp13",
         name: "Jane Doe",
         role: "Feminie",
-        imageUrl: intervenant5.src
+        imageUrl: intervenant5.src,
+        visible: false
       }
     ]
   }
@@ -162,9 +177,7 @@ export const JOUR_2_SESSIONS: Session[] = [
     startTime: "10:30",
     endTime: "11:30",
     cible: "Tous",
-    speakers: [
-      { id: "sp_j2_2_1", name: "F-UNION · Représentants délégations · Partenaires", role: "Discours", imageUrl: intervenant1.src }
-    ]
+    speakers: []
   },
   {
     id: "j2_s3",
@@ -174,10 +187,10 @@ export const JOUR_2_SESSIONS: Session[] = [
     endTime: "12:30",
     cible: "Tous",
     speakers: [
-      { id: "sp_j2_3_1", name: "Hermines Dolores Boum", role: "Intervenante", imageUrl: intervenant6.src },
-      { id: "sp_j2_3_2", name: "Léonie Ngane", role: "Intervenante", imageUrl: intervenant7.src },
-      { id: "sp_j2_3_3", name: "Ange Kouassi", role: "Intervenante", imageUrl: intervenant8.src },
-      { id: "sp_j2_3_4", name: "Blanche Ntone", role: "Modératrice", imageUrl: intervenant3.src }
+      { id: "sp_j2_3_1", name: "Hermines-Dolorès Boum", role: "Intervenante", imageUrl: intervenant6.src },
+      { id: "sp_j2_3_2", name: "Léonie Ngane", role: "Intervenante", imageUrl: intervenant7.src, visible: false },
+      { id: "sp_j2_3_3", name: "Ange Kouassi", role: "Intervenante", imageUrl: intervenant8.src, visible: false },
+      { id: "sp_j2_3_4", name: "Blanche Ntone", role: "Modératrice", imageUrl: intervenant3.src, visible: false }
     ]
   },
   {
@@ -197,8 +210,8 @@ export const JOUR_2_SESSIONS: Session[] = [
     endTime: "14:30",
     cible: "Pass Talent / Next Gen",
     speakers: [
-      { id: "sp_j2_5_1", name: "Lydie Ngo Nogol", role: "Intervenante", imageUrl: LydieNgoNogol.src },
-      { id: "sp_j2_5_2", name: "Carine Dikambi-NJAMO", role: "Intervenante", imageUrl: CarineDIkambi.src },
+      { id: "sp_j2_5_1", name: "Linda Mballa", role: "Intervenante", imageUrl: LindaMballa.src },
+      { id: "sp_j2_5_2", name: "Carine Dikambi", role: "Intervenante", imageUrl: CarineDIkambi.src },
       { id: "sp_j2_5_3", name: "Belinda Ngono", role: "Intervenante", imageUrl: intervenant5.src },
       { id: "sp_j2_5_4", name: "Patricia MEBARA", role: "Modératrice", imageUrl: intervenant2.src }
     ]
@@ -213,8 +226,9 @@ export const JOUR_2_SESSIONS: Session[] = [
     speakers: [
       { id: "sp_j2_6_1", name: "Chantal Edie", role: "Intervenante", imageUrl: intervenant8.src },
       { id: "sp_j2_6_2", name: "Paola Yoko", role: "Intervenante", imageUrl: intervenant1.src },
-      { id: "sp_j2_6_3", name: "Conforte Mahouvi", role: "Intervenante", imageUrl: intervenant2.src },
-      { id: "sp_j2_6_4", name: "Aimée Catherine Moukouri", role: "Modératrice", imageUrl: AimeeCatherineMoukouri.src }
+      { id: "sp_j2_6_3", name: "Conforte Mahouvi", role: "Intervenante", imageUrl: intervenant2.src, visible: false },
+      { id: "sp_j2_6_4", name: "Aimée Catherine Moukouri", role: "Modératrice", imageUrl: AimeeCatherineMoukouri.src },
+      { id: "sp_j2_6_5", name: "Linda Mballa", role: "Intervenante", imageUrl: LindaMballa.src }
     ]
   },
   {
@@ -227,7 +241,7 @@ export const JOUR_2_SESSIONS: Session[] = [
     speakers: [
       { id: "sp_j2_7_1", name: "Aurélie Chazai", role: "Intervenante", imageUrl: AurelieChazai.src },
       { id: "sp_j2_7_2", name: "Diane Audrey Ngako", role: "Intervenante", imageUrl: intervenant2.src },
-      { id: "sp_j2_7_3", name: "Nelly Elang", role: "Intervenante", imageUrl: intervenant4.src },
+      { id: "sp_j2_7_3", name: "Nelly Elang", role: "Intervenante", imageUrl: intervenant4.src, visible: false },
       { id: "sp_j2_7_4", name: "Wilfried Djopa", role: "Intervenant", imageUrl: WilfriedDjopa.src }
     ]
   },
@@ -258,13 +272,13 @@ export const JOUR_2_SESSIONS: Session[] = [
   },
   {
     id: "j2_s10",
-    title: "MASTERCLASS AVEC PAOLA AUDREY — L’art d’être présente dans les espaces qui comptent",
+    title: "MASTERCLASS EXCLUSIVE",
     hall: "Conference Hall 1",
     startTime: "16:30",
     endTime: "17:30",
     cible: "Tous",
     speakers: [
-      { id: "sp_j2_10_1", name: "Paola Audrey", role: "Intervenante", imageUrl: intervenant7.src }
+      { id: "sp_j2_10_1", name: "Paola Audrey", role: "Intervenante", imageUrl: intervenant7.src, visible: false }
     ]
   },
   {
@@ -276,7 +290,7 @@ export const JOUR_2_SESSIONS: Session[] = [
     cible: "Pass VIP",
     speakers: [
       { id: "sp_j2_11_1", name: "Hermines-Dolorès Boum", role: "Intervenante", imageUrl: intervenant6.src },
-      { id: "sp_j2_11_2", name: "Vanessa Kamé-Domguia", role: "Intervenante", imageUrl: intervenant1.src }
+      { id: "sp_j2_11_2", name: "Vanessa Kamé-Domguia", role: "Modératrice", imageUrl: VanessaKame.src }
     ]
   }
 ];
@@ -298,7 +312,10 @@ export const JOUR_3_SESSIONS: Session[] = [
     startTime: "08:30",
     endTime: "12:00",
     cible: "Tous",
-    speakers: []
+    speakers: [
+      { id: "sp_j3_2_1", name: "Pechens Pokossy Doumbe", role: "Mentor", imageUrl: PechensDOUMBE.src },
+      { id: "sp_j3_2_2", name: "Jocelyne Ngassam", role: "Mentor", imageUrl: JocelyneNgassam.src }
+    ]
   },
   {
     id: "j3_s3",
@@ -337,7 +354,7 @@ export const JOUR_3_SESSIONS: Session[] = [
     endTime: "12:30",
     cible: "Pass Next Gen",
     speakers: [
-      { id: "sp_j3_6_1", name: "Laetissia ENONGA DISSAKE", role: "Intervenante", imageUrl: intervenant4.src },
+      { id: "sp_j3_6_1", name: "Laetissia ENONGA DISSAKE", role: "Intervenante", imageUrl: intervenant4.src, visible: false },
       { id: "sp_j3_6_2", name: "Christian TCHOUPE", role: "Intervenant", imageUrl: ChristianTchoupe.src },
       { id: "sp_j3_6_3", name: "Erika WILSON", role: "Intervenante", imageUrl: ErikaWilson.src },
       { id: "sp_j3_6_4", name: "Honoré NKOUEL", role: "Intervenant", imageUrl: HonoreNkouel.src },
@@ -361,7 +378,7 @@ export const JOUR_3_SESSIONS: Session[] = [
     endTime: "14:00",
     cible: "Pass Next Gen",
     speakers: [
-      { id: "sp_j3_8_1", name: "Linda NGANKO", role: "Intervenante", imageUrl: LindaNganko.src },
+      { id: "sp_j3_8_1", name: "Linda Loretta Nganko", role: "Intervenante", imageUrl: LindaNganko.src },
       { id: "sp_j3_8_2", name: "Manuela KAMADJOU", role: "Intervenante", imageUrl: ManuelaKAMADJOU.src },
       { id: "sp_j3_8_3", name: "Anabelle KOUNG", role: "Modératrice", imageUrl: AnabelleKOUNG.src }
     ]
@@ -390,7 +407,7 @@ export const JOUR_3_SESSIONS: Session[] = [
     endTime: "16:00",
     cible: "Tous",
     speakers: [
-      { id: "sp_j3_10_1", name: "Al-Nita Mouen", role: "Intervenante", imageUrl: intervenant5.src }
+      { id: "sp_j3_10_1", name: "Al-Nita Mouen", role: "Intervenante", imageUrl: intervenant5.src, visible: false }
     ]
   },
   {

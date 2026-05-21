@@ -19,7 +19,7 @@ export const Jour3Screen = () => {
         googleFormUrl="https://docs.google.com/forms/d/e/1FAIpQLSdyaZmTc2lu4TO4dhqxQtycLUT4JaMHVvDWzmwfyKWWMst0AA/viewform?embedded=true"
         speakerProfiles={SPEAKER_PROFILES}
         onSpeakerClick={setActiveSpeaker}
-        showSpeakers={false}
+        showSpeakers={true}
         dayIndex={2}
       />
       <SpeakerModal speaker={activeSpeaker} onClose={() => setActiveSpeaker(null)} />

@@ -8,6 +8,8 @@ import ManuelaKAMADJOU from "@/core/assets/manuela-kamadjou.jpg";
 import MeGaelleNGUE from "@/core/assets/me-gaelle-ngue.jpg";
 import PechensDOUMBE from "@/core/assets/pechens-doumbe.jpg";
 import PriscaHeuya from "@/core/assets/prisca-heuya.png";
+import SandraGagneur from "@/core/assets/SandraGagneur.jpeg";
+import VanessaKame from "@/core/assets/Vanessa-Kame.png";
 import ThierryNtamack from "@/core/assets/thierry-ntamack.jpg";
 import AnabelleKOUNG from "@/core/assets/anabelle-koung.jpeg";
 import AurelieGuifo from "@/core/assets/aurelie-guifo.jpg";
@@ -39,9 +41,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Aurélie Chazai est une avocate camerounaise inscrite aux Barreaux du Cameroun et de Paris. Elle est titulaire d’un master 2 recherche en droit financier et d’un master 2 professionnel en droit des affaires et fiscalité, obtenus à l’Université de Paris 1 Panthéon-Sorbonne. En novembre 2017, après avoir exercé au sein de plusieurs cabinets d’avocats internationaux de premier plan à Paris, elle fonde le cabinet d’avocats Chazai & Partners, devenu Chazai Wamba, dont elle est aujourd’hui Managing Partner.",
     sessions: [
       {
-        id: "j2_s5",
-        title: "Workshop : Scale Up Room",
-        href: "/programme/jour2#j2_s5"
+        id: "j2_s7",
+        title: "WORKSHOP : Face aux Experts — des solutions concrètes pour faire avancer ton business",
+        href: "/programme/jour2#j2_s7"
       }
     ]
   },
@@ -53,8 +55,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     imageUrl: JocelyneNgassam.src,
     bio: "Jocelyne Ngassam est une experte en management et en stratégie commerciale avec une vaste expérience dans l'accompagnement des entreprises et des talents en Afrique.",
     sessions: [
-      { id: "j3_s1", title: "1:1 MENTORAT", href: "/programme/jour3#j3_s1" },
-      { id: "j3_s9", title: "AFTER DARK CLOTURE : FLASH TALK", href: "/programme/jour3#j3_s9" }
+      { id: "j3_s1", title: "Accueil des participantes Bootcamp — Enregistrement, badges, installation", href: "/programme/jour3#j3_s1" },
+      { id: "j3_s2", title: "MENTORING 1:1 — Sessions individuelles en continu", href: "/programme/jour3#j3_s2" },
+      { id: "j3_s9", title: "Table ronde : L'Écosystème Transgénérationnel — construire la prochaine génération de femmes leaders", href: "/programme/jour3#j3_s9" }
     ]
   },
   {
@@ -65,7 +68,8 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     imageUrl: HermineDoloresBoum.src,
     bio: "Hermine-Dolorès BOUM est Administratrice Indépendante Certifiée par l’Institute of Directors (IoD, Royaume-Uni) et le Collège des Administrateurs de Sociétés (Québec). Elle détient également la certification ESG de The Boardroom Africa (TBRA), est Executive Coach accréditée par l’International Coaching Federation (ICF), et depuis septembre 2025, elle est titulaire du Certificat International en Gouvernance des Risques Cyber du DCRO Institute.",
     sessions: [
-      { id: "j2_s3", title: "Table Ronde : Leadership féminin", href: "/programme/jour2#j2_s3" }
+      { id: "j2_s3", title: "TABLE RONDE 1 : Leadership féminin, talents et performance économique", href: "/programme/jour2#j2_s3" },
+      { id: "j2_s11", title: "F-UNION LOUNGE TALK — Causerie ENTRE NOUS avec Hermines Dolorès Boum & Vanessa Kamé-Domguia", href: "/programme/jour2#j2_s11" }
     ]
   },
   {
@@ -77,9 +81,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Linda est une experte RH reconnue à l'échelle africaine, avec plus de 20 ans d'expérience RH, notamment au sein de MTN Cameroon et du Groupe Activa. Elle a fondé 2LN Expertise, un laboratoire RH proposant des outils et conseils pour les experts RH.",
     sessions: [
       {
-        id: "j3_s4",
-        title: "Réinventer sa carrière",
-        href: "/programme/jour3#j3_s4"
+        id: "j3_s8",
+        title: "Career Lab : Réinventer sa carrière — clés et opportunités pour une transition réussie",
+        href: "/programme/jour3#j3_s8"
       }
     ]
   },
@@ -93,9 +97,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Gaelle Ngue est avocate, membre du Barreau du Cameroun et du Barreau du Québec. Elle est l’associée gérante du cabinet Ngue & Associés, basé au Cameroun, dont la pratique est axée sur le droit des affaires, la gouvernance d’entreprise, le droit OHADA et la conformité réglementaire.",
     sessions: [
       {
-        id: "j2_s8",
-        title: "ATELIER VIP : Leadership Styling",
-        href: "/programme/jour2#j2_s8"
+        id: "j2_s9",
+        title: "ATELIER : Leadership Styling — Image, présence et posture professionnelle",
+        href: "/programme/jour2#j2_s9"
       }
     ]
   },
@@ -108,9 +112,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "",
     sessions: [
       {
-        id: "j2_s5",
-        title: "Workshop : Scale Up Room – 5 entrepreneurs, 5 défis stratégiques, face à un panel d'experts",
-        href: "/programme/jour2#j2_s5"
+        id: "j2_s7",
+        title: "WORKSHOP : Face aux Experts — des solutions concrètes pour faire avancer ton business",
+        href: "/programme/jour2#j2_s7"
       }
     ]
   },
@@ -124,8 +128,13 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Linda Mballa est une ingénieure logiciel passionnée par l'innovation technologique et l'entrepreneuriat en Afrique. Elle est co-fondatrice de Dev_girls, une communauté dédiée à l'émancipation et au développement des femmes dans le secteur technologique.",
     sessions: [
       {
+        id: "j2_s5",
+        title: "Career Lab : Faire carrière dans la tech",
+        href: "/programme/jour2#j2_s5"
+      },
+      {
         id: "j2_s6",
-        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        title: "TABLE RONDE 2 : Leadership féminin dans les industries créatives",
         href: "/programme/jour2#j2_s6"
       }
     ]  
@@ -140,7 +149,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j2_s6",
-        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        title: "TABLE RONDE 2 : Leadership féminin dans les industries créatives",
         href: "/programme/jour2#j2_s6"
       }
     ]  
@@ -155,9 +164,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Eva Youmbi est Directrice des marchés de capitaux chez FedhEn Capital, où elle accompagne des États et des entreprises stratégiques dans leurs opérations de financement. Diplômée de ESCP Business School et certifiée en inclusion financière par le FMI, elle s'intéresse au développement des marchés financiers africains et à l'accès au financement pour les PME et les jeunes entrepreneurs.",
     sessions: [
       {
-        id: "j2_s10",
-        title: "Investment Corner Powered by WIN",
-        href: "/programme/jour2#j2_s10"
+        id: "j3_s3",
+        title: " Investment Corner Powered by WIN",
+        href: "/programme/jour3#j3_s3"
       }
     ]
   },
@@ -170,9 +179,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Thierry Ntamack est un acteur, réalisateur, scénariste et producteur de cinéma camerounais, reconnu pour ses rôles dans des films comme Le Blanc d’Eyenga et La Patrie d’Abord. Formé aux arts du spectacle à l’Université de Yaoundé puis au Cours Florent, il accompagne aujourd’hui les dirigeants dans leur prise de parole en public.",
     sessions: [
       {
-        id: "j2_s7",
-        title: "Workshop préparation média",
-        href: "/programme/jour2#j2_s7"
+        id: "j2_s8",
+        title: "ATELIER VIP : Préparation média & prise de parole en public",
+        href: "/programme/jour2#j2_s8"
       }
     ]
   },
@@ -185,9 +194,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Edithe Nken Hot est consultante spécialisée en croissance commerciale et développement humain des entreprises; directrice générale Univers Internes. Elle inspire, outille et accompagne les dirigeants et professionnels à transformer leurs objectifs en résultats concrets.",
     sessions: [
       {
-        id: "j2_s8",
-        title: "ATELIER VIP : Leadership Styling",
-        href: "/programme/jour2#j2_s8"
+        id: "j2_s9",
+        title: "ATELIER : Leadership Styling — Image, présence et posture professionnelle",
+        href: "/programme/jour2#j2_s9"
       }
     ]
   },
@@ -200,9 +209,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "",
     sessions: [
       {
-        id: "j2_s8",
-        title: "ATELIER VIP : Leadership Styling",
-        href: "/programme/jour2#j2_s8"
+        id: "j2_s9",
+        title: "ATELIER : Leadership Styling — Image, présence et posture professionnelle",
+        href: "/programme/jour2#j2_s9"
       }
     ]
   },
@@ -232,8 +241,23 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j3_s4",
-        title: "Réinventer sa carrière",
+        title: "FINALE — PITCH YOUR FUTURE",
         href: "/programme/jour3#j3_s4"
+      }
+    ]
+  },
+  {
+    id: "vanessa-kame-domguia",
+    name: "Vanessa Kamé-Domguia",
+    role: "Modératrice",
+    description: "Conseillère stratégique en Relations Publiques spécialisée en positionnement et réputation.",
+    imageUrl: VanessaKame.src,
+    bio: "Vanessa Kamé-Domguia est conseillère stratégique en Relations Publiques, spécialisée en positionnement et réputation. Fondatrice de The Network Public Relations et de African Expats Magazine Middle East, elle conçoit des stratégies d’influence entre l’Afrique et les marchés internationaux, avec une attention particulière à l’Afrique francophone et centrale. Elle conseille dirigeants et marques sur des enjeux de visibilité, de crédibilité et de narration stratégique dans des environnements complexes. Elle a collaboré avec des maisons de référence comme Ruinart et Moët & Chandon au Cameroun et intervient sur des plateformes internationales telles que la Dubai Fashion Week. Sa mission est de structurer une influence africaine forte, cohérente et durable à l’échelle globale.",
+    sessions: [
+      {
+        id: "j2_s11",
+        title: "F-UNION LOUNGE TALK — Causerie ENTRE NOUS avec Hermines Dolorès Boum & Vanessa Kamé-Domguia",
+        href: "/programme/jour2#j2_s11"
       }
     ]
   },
@@ -246,9 +270,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Manuela Kamadjou est Managing Director du groupe KEBE, consultante business et lifestyle industry expert.",
     sessions: [
       {
-        id: "j3_s4",
-        title: "Réinventer sa carrière",
-        href: "/programme/jour3#j3_s4"
+        id: "j3_s8",
+        title: "Career Lab : Réinventer sa carrière — clés et opportunités pour une transition réussie",
+        href: "/programme/jour3#j3_s8"
       }
     ]
   },
@@ -261,9 +285,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Anabelle Koung est une professionnelle de l’innovation et de la stratégie, évoluant au croisement de l’assurance, du développement de produits et de la transformation des organisations.",
     sessions: [
       {
-        id: "j3_s4",
-        title: "Réinventer sa carrière",
-        href: "/programme/jour3#j3_s4"
+        id: "j3_s8",
+        title: "Career Lab : Réinventer sa carrière — clés et opportunités pour une transition réussie",
+        href: "/programme/jour3#j3_s8"
       }
     ]
   },
@@ -276,9 +300,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Erika Wilson est experte en Responsabilité Sociétale des Entreprises, certifiée AFNOR et EDHEC Business School. Elle pilote des projets RSE et de communication institutionnelle à fort impact.",
     sessions: [
       {
-        id: "j3_s5",
-        title: "Table Ronde : Ce que les entreprises attendent des jeunes talents aujourd’hui",
-        href: "/programme/jour3#j3_s5"
+        id: "j3_s6",
+        title: "Career Lab : Ce que les entreprises attendent des jeunes talents",
+        href: "/programme/jour3#j3_s6"
       }
     ]
   },
@@ -291,9 +315,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Honoré NKOUEL est Expert RH et Directeur des Ressources Humaines pour l’Afrique centrale chez CFAO INFRASTRUCTURE. Fort de plus de 16 ans d’expérience, il incarne une nouvelle génération de DRH pragmatique et visionnaire.",
     sessions: [
       {
-        id: "j3_s5",
-        title: "Table Ronde : Ce que les entreprises attendent des jeunes talents aujourd’hui",
-        href: "/programme/jour3#j3_s5"
+        id: "j3_s6",
+        title: "Career Lab : Ce que les entreprises attendent des jeunes talents",
+        href: "/programme/jour3#j3_s6"
       }
     ]
   },
@@ -306,9 +330,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Christian Tchoupe est Account Manager chez SBS Software, où il accompagne des institutions financières majeures dans leurs projets de transformation digitale en Afrique centrale.",
     sessions: [
       {
-        id: "j3_s5",
-        title: "Table Ronde : Ce que les entreprises attendent des jeunes talents aujourd’hui",
-        href: "/programme/jour3#j3_s5"
+        id: "j3_s6",
+        title: "Career Lab : Ce que les entreprises attendent des jeunes talents",
+        href: "/programme/jour3#j3_s6"
       }
     ]
   },
@@ -322,8 +346,13 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j3_s1",
-        title: "1:1 MENTORAT",
+        title: "Accueil des participantes Bootcamp — Enregistrement, badges, installation",
         href: "/programme/jour3#j3_s1"
+      },
+      {
+        id: "j3_s2",
+        title: "MENTORING 1:1 — Sessions individuelles en continu",
+        href: "/programme/jour3#j3_s2"
       }
     ]
   },
@@ -338,7 +367,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j3_s9",
-        title: "AFTER DARK CLOTURE : FLASH TALK",
+        title: "Table ronde : L'Écosystème Transgénérationnel — construire la prochaine génération de femmes leaders",
         href: "/programme/jour3#j3_s9"
       }
     ]
@@ -353,9 +382,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: " ",
     sessions: [
       {
-        id: "j2_s5",
-        title: "Workshop : Scale Up Room – 5 entrepreneurs, 5 défis stratégiques, face à un panel d’experts",
-        href: "/programme/jour2#j2_s5"
+        id: "j2_s7",
+        title: "WORKSHOP : Face aux Experts — des solutions concrètes pour faire avancer ton business",
+        href: "/programme/jour2#j2_s7"
       }
     ]  },
   {
@@ -367,9 +396,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "Évangéliste de l'emploi et spécialiste de l'insertion professionnelle, Jessica accompagne le développement des talents et l'employabilité. Experte en ressources humaines dédiée aux TPE/PME africaines, elle met son savoir-faire au service de la performance organisationnelle. Fondatrice d'« Égalité Pour Tous », elle œuvre pour une inclusion professionnelle plus juste et équitable.",
     sessions: [
       {
-        id: "j3_s5",
-        title: "Table Ronde : Ce que les entreprises attendent des jeunes talents aujourd'hui",
-        href: "/programme/jour3#j3_s5"
+        id: "j3_s6",
+        title: "Career Lab : Ce que les entreprises attendent des jeunes talents",
+        href: "/programme/jour3#j3_s6"
       }
     ]
   },
@@ -382,9 +411,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "",
     sessions: [
       {
-        id: "j2_s4",
-        title: "Table Ronde : Faire carrière dans la Tech",
-        href: "/programme/jour2#j2_s4"
+        id: "j2_s5",
+        title: "Career Lab : Faire carrière dans la tech",
+        href: "/programme/jour2#j2_s5"
       }
     ]
   },
@@ -397,9 +426,9 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     bio: "",
     sessions: [
       {
-        id: "j2_s4",
-        title: "Table Ronde : Faire carrière dans la Tech",
-        href: "/programme/jour2#j2_s4"
+        id: "j2_s5",
+        title: "Career Lab : Faire carrière dans la tech",
+        href: "/programme/jour2#j2_s5"
       }
     ]
   },
@@ -414,7 +443,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j3_s1",
-        title: "1:1 MENTORAT",
+        title: "Accueil des participantes Bootcamp — Enregistrement, badges, installation",
         href: "/programme/jour3#j3_s1"
       }
     ]
@@ -429,8 +458,23 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j2_s6",
-        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        title: "TABLE RONDE 2 : Leadership féminin dans les industries créatives",
         href: "/programme/jour2#j2_s6"
+      }
+    ]
+  },
+  {
+    id: "sandra-gagneur",
+    name: "Sandra Gagneur",
+    role: "Intervenante",
+    description: "Intervenante spécialisée en leadership et image professionnelle.",
+    imageUrl: SandraGagneur.src,
+    bio: "Sandra Gagneur est intervenante en leadership et image professionnelle. Elle accompagne les femmes entrepreneurs dans le développement de leur présence, image de marque et posture d'influence.",
+    sessions: [
+      {
+        id: "j2_s9",
+        title: "ATELIER : Leadership Styling — Image, présence et posture professionnelle",
+        href: "/programme/jour2#j2_s9"
       }
     ]
   },
@@ -444,7 +488,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j2_s6",
-        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        title: "TABLE RONDE 2 : Leadership féminin dans les industries créatives",
         href: "/programme/jour2#j2_s6"
       }
     ]  
@@ -459,7 +503,7 @@ export const SPEAKER_PROFILES: SpeakerProfile[] = [
     sessions: [
       {
         id: "j2_s6",
-        title: "Table Ronde : Leadership féminin dans l'industrie créative",
+        title: "TABLE RONDE 2 : Leadership féminin dans les industries créatives",
         href: "/programme/jour2#j2_s6"
       }
     ]  

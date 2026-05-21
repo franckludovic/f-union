@@ -4,6 +4,7 @@ export interface Speaker {
   role: string;
   imageUrl: string;
   gender?: 'Feminie' | 'Masculin'; // Based on the design "Feminie" (French for Feminine)
+  visible?: boolean;
 }
 
 export interface Session {
