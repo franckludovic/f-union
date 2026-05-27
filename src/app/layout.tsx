@@ -5,6 +5,7 @@ import { Navbar } from "@/core/components/Navbar";
 import { Footer } from "@/core/components/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { PageViewTracker } from "@/core/components/PageViewTracker";
+import { Suspense } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +30,9 @@ export default function RootLayout({
   return (
     <html lang="fr" className="scroll-smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <PageViewTracker />
+        <Suspense fallback={null}>
+          <PageViewTracker />
+        </Suspense>
         <Navbar />
         {children}
         <Footer />
@@ -40,3 +43,4 @@ export default function RootLayout({
     </html>
   );
 }
+
