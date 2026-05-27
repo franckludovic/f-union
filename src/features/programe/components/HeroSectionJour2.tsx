@@ -166,27 +166,6 @@ export const HeroSectionJour2 = () => {
 
       {/* Navigation Arrows (Left/Right) - Absolutely positioned */}
       <button
-        style={{ backgroundColor: isLeftHovered ? "#B150C5" : "transparent" }}
-        onMouseEnter={() => setIsLeftHovered(true)}
-        onMouseLeave={() => setIsLeftHovered(false)}
-        onClick={() => router.push("/programme/jour1")}
-        className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white transition-all z-30 cursor-pointer hover:border-white/40 active:scale-90 hover:scale-105"
-      >
-        <svg
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-      </button>
-
-      <button
         style={{ backgroundColor: isRightHovered ? "#B150C5" : "transparent" }}
         onMouseEnter={() => setIsRightHovered(true)}
         onMouseLeave={() => setIsRightHovered(false)}

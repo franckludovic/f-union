@@ -12,10 +12,10 @@ export const Navbar = () => {
   const [isProgrammeOpen, setIsProgrammeOpen] = useState(false);
 
   const programmeLinks = [
-    // { href: "/programme/jour1", label: "Jour 1" },
-    { href: "/programme/jour2", label: "Jour 1" },
-    { href: "/programme/jour3", label: "Jour 2" },
+    { href: "/programme/jour2", label: "Jour 2" },
+    { href: "/programme/jour3", label: "Jour 3" },
   ];
+
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
